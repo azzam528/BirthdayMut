@@ -26,19 +26,19 @@ body {
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: lightblue;
+		background-color: lightgreen;;
 	}
 	25%{
-		background-color: lightblue;
+		background-color: lightgreen;
 	}
 	50%{
-		background-color: lightblue;
+		background-color: lightgreen;
 	}
 	75%{
-		background-color: lightblue;
+		background-color: lightgreen;
 	}
 	100%{
-		background-color: lightblue;
+		background-color: lightgreen;
 	}
 }
 @-moz-keyframes peach_alive {
@@ -64,13 +64,13 @@ body {
 		background-color: lightblue;
 	}
 	25%{
-		background-color: #50f3aa;
+		background-color: lightgreen;
 	}
 	50%{
 		background-color: #ddd5d8;
 	}
 	75%{
-		background-color: #50f3aa;
+		background-color: lightgreen;
 	}
 	100%{
 		background-color: lightblue;
@@ -82,13 +82,13 @@ body {
 		background-color: lightblue;
 	}
 	25%{
-		background-color: #50f3aa;
+		background-color: lightgreen;
 	}
 	50%{
 		background-color: #ddd5d8;
 	}
 	75%{
-		background-color:#50f3aa;
+		background-color: lightgreen;
 	}
 	100%{
 		background-color: lightblue;
@@ -100,13 +100,13 @@ body {
 		background-color: lightblue;
 	}
 	25%{
-		background-color: #50f3aa;
+		background-color: lightgreen;
 	}
 	50%{
 		background-color: lightblue;
 	}
 	75%{
-		background-color: #50f3aa;
+		background-color: lightgreen;
 	}
 	100%{
 		background-color: lightblue;
