@@ -13,7 +13,7 @@ body {
 }
 .peach {
 	/* background-image: url("bd1.jpg"); */
-	background-color:  lightblue;
+	background-color:  #FFE4E1;
 	
 }
 .peach-after {
@@ -25,93 +25,44 @@ body {
 }
 
 @-webkit-keyframes peach_alive {
-	0%{
-		background-color: lightgreen;;
-	}
-	25%{
-		background-color: lightgreen;
-	}
-	50%{
-		background-color: lightgreen;
-	}
-	75%{
-		background-color: lightgreen;
-	}
-	100%{
-		background-color: lightgreen;
-	}
-}
-@-moz-keyframes peach_alive {
-	0%{
-		background-color: lightblue;
-	}
-	25%{
-		background-color: lightblue;
-	}
-	50%{
-		background-color: lightblue;
-	}
-	75%{
-		background-color: lightblue;
-	}
-	100%{
-		background-color: lightblue;
-	}
-}
-
-@-o-keyframes peach_alive {
-	0%{
-		background-color: lightblue;
-	}
-	25%{
-		background-color: lightgreen;
-	}
-	50%{
-		background-color: #ddd5d8;
-	}
-	75%{
-		background-color: lightgreen;
-	}
-	100%{
-		background-color: lightblue;
-	}
-}
-
-@-ms-keyframes peach_alive {
-	0%{
-		background-color: lightblue;
-	}
-	25%{
-		background-color: lightgreen;
-	}
-	50%{
-		background-color: #ddd5d8;
-	}
-	75%{
-		background-color: lightgreen;
-	}
-	100%{
-		background-color: lightblue;
-	}
-}
-
-@keyframes peach_alive {
-	0%{
-		background-color: lightblue;
-	}
-	25%{
-		background-color: lightgreen;
-	}
-	50%{
-		background-color: lightblue;
-	}
-	75%{
-		background-color: lightgreen;
-	}
-	100%{
-		background-color: lightblue;
-	}
-}
+	0%   { background-color: #FFE4E1; } /* Misty Rose */
+	25%  { background-color: #FFB6C1; } /* Light Pink */
+	50%  { background-color: #FF69B4; } /* Hot Pink */
+	75%  { background-color: #FF1493; } /* Deep Pink */
+	100% { background-color: #FFC0CB; } /* Pink */
+  }
+  
+  @-moz-keyframes peach_alive {
+	0%   { background-color: #FFE4E1; }
+	25%  { background-color: #FFB6C1; }
+	50%  { background-color: #FF69B4; }
+	75%  { background-color: #FF1493; }
+	100% { background-color: #FFC0CB; }
+  }
+  
+  @-o-keyframes peach_alive {
+	0%   { background-color: #FFE4E1; }
+	25%  { background-color: #FFB6C1; }
+	50%  { background-color: #FF69B4; }
+	75%  { background-color: #FF1493; }
+	100% { background-color: #FFC0CB; }
+  }
+  
+  @-ms-keyframes peach_alive {
+	0%   { background-color: #FFE4E1; }
+	25%  { background-color: #FFB6C1; }
+	50%  { background-color: #FF69B4; }
+	75%  { background-color: #FF1493; }
+	100% { background-color: #FFC0CB; }
+  }
+  
+  @keyframes peach_alive {
+	0%   { background-color: #FFE4E1; }
+	25%  { background-color: #FFB6C1; }
+	50%  { background-color: #FF69B4; }
+	75%  { background-color: #FF1493; }
+	100% { background-color: #FFC0CB; }
+  }
 
 
 .bulb {
@@ -1057,7 +1008,7 @@ audio {
 	100% {
 		-ms-transform:translate(0px,0px);
 	}
-}o
+}
 @keyframes bannar_come {
 	0%{
 		transform:translate(0px,-1000px);
